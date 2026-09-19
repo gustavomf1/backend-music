@@ -1,0 +1,31 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: backend-music-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: backendmusic
+      POSTGRES_USER: backendmusic
+      POSTGRES_PASSWORD: backendmusic
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  api:
+    build: .
+    container_name: backend-music-api
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: backendmusic
+      DB_USERNAME: backendmusic
+      DB_PASSWORD: backendmusic
+    ports:
+      - "8080:8080"
+
+volumes:
+  postgres_data:

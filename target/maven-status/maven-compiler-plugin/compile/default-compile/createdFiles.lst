@@ -1,0 +1,9 @@
+com\gustavo\backendmusic\repository\SongRepository.class
+com\gustavo\backendmusic\exception\GlobalExceptionHandler.class
+com\gustavo\backendmusic\dto\SongRequest.class
+com\gustavo\backendmusic\dto\SongResponse.class
+com\gustavo\backendmusic\BackendMusicApplication.class
+com\gustavo\backendmusic\entity\Song.class
+com\gustavo\backendmusic\exception\ErrorResponse.class
+com\gustavo\backendmusic\controller\SongController.class
+com\gustavo\backendmusic\service\SongService.class

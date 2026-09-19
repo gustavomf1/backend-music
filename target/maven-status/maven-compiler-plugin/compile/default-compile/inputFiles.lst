@@ -1,0 +1,9 @@
+C:\Users\Gustavo\OneDrive\Documentos\backend-music\src\main\java\com\gustavo\backendmusic\BackendMusicApplication.java
+C:\Users\Gustavo\OneDrive\Documentos\backend-music\src\main\java\com\gustavo\backendmusic\controller\SongController.java
+C:\Users\Gustavo\OneDrive\Documentos\backend-music\src\main\java\com\gustavo\backendmusic\dto\SongRequest.java
+C:\Users\Gustavo\OneDrive\Documentos\backend-music\src\main\java\com\gustavo\backendmusic\dto\SongResponse.java
+C:\Users\Gustavo\OneDrive\Documentos\backend-music\src\main\java\com\gustavo\backendmusic\entity\Song.java
+C:\Users\Gustavo\OneDrive\Documentos\backend-music\src\main\java\com\gustavo\backendmusic\exception\ErrorResponse.java
+C:\Users\Gustavo\OneDrive\Documentos\backend-music\src\main\java\com\gustavo\backendmusic\exception\GlobalExceptionHandler.java
+C:\Users\Gustavo\OneDrive\Documentos\backend-music\src\main\java\com\gustavo\backendmusic\repository\SongRepository.java
+C:\Users\Gustavo\OneDrive\Documentos\backend-music\src\main\java\com\gustavo\backendmusic\service\SongService.java
