@@ -2,6 +2,8 @@
 
 Backend básico em Java com Spring Boot para servir uma aplicação mobile com CRUD de songs.
 
+Web API do app [biblioteca-mobile](https://github.com/gustavomf1/biblioteca-mobile). O passo a passo completo para rodar o sistema está em [COMO-RODAR.md](https://github.com/gustavomf1/biblioteca-mobile/blob/master/COMO-RODAR.md).
+
 ## Estrutura
 
 - `controller` para expor a API REST
@@ -27,8 +29,10 @@ docker compose up -d
 ## Como rodar a API
 
 ```bash
-mvn spring-boot:run
+./mvnw spring-boot:run
 ```
+
+No Windows: `mvnw.cmd spring-boot:run`. O Maven não precisa estar instalado (Maven Wrapper).
 
 ## Como rodar tudo com Docker
 
